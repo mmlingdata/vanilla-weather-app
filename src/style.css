@@ -37,6 +37,7 @@ li {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+  text-transform: capitalize;
 }
 
 .weather-temp img {
@@ -58,4 +59,8 @@ li {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+a {
+  text-decoration: none;
 }
