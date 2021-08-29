@@ -1,5 +1,27 @@
 body {
-  font-family: "Google Sans", arial, sans-serif;
+  font-family: "PT Mono", monospace;
+  color: #7b6785;
+}
+
+.heading {
+  display: block;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 20px;
+  color: #3b4858;
+}
+
+.main-title {
+  text-transform: uppercase;
+  color: #ed9955;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.sub-title {
+  color: #3b4858;
+  font-size: 30px;
+  opacity: 0.5;
 }
 
 .main-wrapper {
@@ -10,17 +32,17 @@ body {
   padding: 20px;
   border: 1px solid rgb(200, 205, 206);
   border-radius: 5px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h1 {
-  color: rgb(143, 138, 138);
   font-size: 24px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 35px;
   margin-bottom: 0;
 }
 
@@ -45,9 +67,9 @@ li {
 
 .weather-temp img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
-  top: -9px;
+  height: 100px;
+  width: 100px;
+  top: -18px;
   position: relative;
 }
 
@@ -66,6 +88,11 @@ li {
 
 .footer {
   font-size: 12px;
+}
+
+.name {
+  font-size: 12px;
+  opacity: 0.8;
 }
 
 .weather-temp .active {
@@ -104,4 +131,55 @@ a {
 .forecast-temp-min {
   font-size: 13px;
   opacity: 0.5;
+}
+
+.btn-primary {
+  background-color: #3b4858;
+  border: 1px solid #3b4858;
+}
+
+.btn-primary:hover {
+  background-color: #3b4858;
+  border: 1px solid #3b4858;
+  opacity: 0.6;
+  outline: none;
+}
+
+.btn-primary:focus {
+  background-color: #3b4858;
+  border: 1px solid #3b4858;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary:active {
+  background-color: #3b4858;
+  border: 1px solid #3b4858;
+  outline: none !important;
+  box-shadow: none;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.source-text {
+  color: #ed9955;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#city {
+  color: #de6b28d7;
+  font-weight: 600;
+}
+
+.last-updated {
+  font-style: italic;
+}
+
+#description {
+  color: #3b4858;
+  font-weight: 600;
+  opacity: 0.8;
 }
